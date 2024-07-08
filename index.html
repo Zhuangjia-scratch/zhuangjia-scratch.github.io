@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="google" value="notranslate">
+    <link rel="shortcut icon" href="static/favicon.ico">
+    <link rel="manifest" href="manifest.webmanifest">
+    <link rel="apple-touch-icon" href="pwa_static/assets/scratch-apple-logo.png">
+    <title>Scratch3.0 庄稼编程</title>
+    
+    <script>
+        function inIframe() {
+            try {
+                return window.self !== window.top;
+            } catch (e) {
+                return true;
+            }
+        }
+        if (!inIframe()) {
+            window.addEventListener("load", () => {
+                if ("serviceWorker" in navigator) {
+                    navigator.serviceWorker.register("sw.js");
+                }
+            });
+        }
+    </script>
+  </head>
+  <body>
+    <script>
+      var _hmt = _hmt || [];
+      (function() {
+        var hm = document.createElement("script");
+        hm.src = "https://hm.baidu.com/hm.js?1eeceef8337eec757a6705f0a8cdbf3c";
+        var s = document.getElementsByTagName("script")[0]; 
+        s.parentNode.insertBefore(hm, s);
+      })();
+    </script>
+    <script src="pwa_static/install-pop-up.js"></script>
+  <script type="text/javascript" src="lib.min.js"></script><script type="text/javascript" src="chunks/gui.js"></script></body>
+</html>

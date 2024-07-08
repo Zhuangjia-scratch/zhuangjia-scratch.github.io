@@ -1,0 +1,33 @@
+{
+    "theme_color": "#4d97ff",
+    "background_color": "#ffffff",
+    "display": "standalone",
+    "display_override": ["window-controls-overlay"],
+    "scope": "/",
+    "start_url": "/",
+    "name": "Scratch 3.0 - 可好玩乐编程",
+    "description": "高质量编程学习与培训内容就在可好玩乐青少年编程平台",
+    "short_name": "Scratch 3.0",
+    "icons": [
+        {
+            "src": "/pwa_static/assets/icon-192x192.png",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa_static/assets/icon-256x256.png",
+            "sizes": "256x256",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa_static/assets/icon-384x384.png",
+            "sizes": "384x384",
+            "type": "image/png"
+        },
+        {
+            "src": "/pwa_static/assets/icon-512x512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
