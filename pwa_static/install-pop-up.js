@@ -3,10 +3,10 @@ let deferredPrompt;
 function createPopup() {
     let html = `
 <div class="install-pop-up">
-    <p class="content">ⓘ 安装 Scratch 3.0 客户端获得更好体验</p>
+    <p class="content">ⓘ 安装 庄稼Scratch 3.0 客户端获得更好体验</p>
     <div class="actions">
-        <button class="btn-cancel link">暂不安装</button> 
-        <button class="btn-install primary">立即安装</button>
+        <button class="btn-cancel link">鸡不安装</button> 
+        <button class="btn-install primary">马上安装</button>
     </div>
 </div>
 `;
